@@ -7,14 +7,14 @@ public class Main {
     public static void main(String[] args) {
 
         List<Tank> tanks = new ArrayList<>();
-        tanks.add(new Tank("Черчиль I", 68, 33));
-        tanks.add(new Tank("Т-34", 118, 16));
-        tanks.add(new Tank("Тигр I", 150, 11));
-        tanks.add(new Tank("T-34-85", 101, 19));
-        tanks.add(new Tank("Тигр II", 212, 7));
-        tanks.add(new Tank("Матильда IV", 190, 7));
-        tanks.add(new Tank("Т-72", 95, 22));
-        tanks.add(new Tank("Лев", 250, 6));
+        tanks.add(new Tank("Черчиль I", 68, 60,35,76,700,30,7));
+        tanks.add(new Tank("Т-34", 118, 80,35,85,700,30,8));
+        tanks.add(new Tank("Тигр I", 150, 85,38,88,750,20,7));
+        tanks.add(new Tank("T-34-85", 101, 80,36,85,700,25,8));
+        tanks.add(new Tank("Тигр II", 212, 100,32,88,800,25,7));
+        tanks.add(new Tank("Матильда IV", 190, 75,30,80,750,20,6));
+        tanks.add(new Tank("Т-72", 95, 90,45,85,850,18,5));
+        tanks.add(new Tank("Лев", 250, 120,32,100,850,18,8));
 
         int battleCounter = 1;
 
